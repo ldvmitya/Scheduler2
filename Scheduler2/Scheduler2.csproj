@@ -141,7 +141,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\SchedulesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -157,6 +156,14 @@
     <Compile Include="Migrations\201902052007251_AddScheduleMigration3.cs" />
     <Compile Include="Migrations\201902052007251_AddScheduleMigration3.Designer.cs">
       <DependentUpon>201902052007251_AddScheduleMigration3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902071027406_AddCompanyMigration.cs" />
+    <Compile Include="Migrations\201902071027406_AddCompanyMigration.Designer.cs">
+      <DependentUpon>201902071027406_AddCompanyMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902071127148_AddCompanyMigration1.cs" />
+    <Compile Include="Migrations\201902071127148_AddCompanyMigration1.Designer.cs">
+      <DependentUpon>201902071127148_AddCompanyMigration1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Schedule.cs" />
@@ -196,9 +203,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Schedules\Create.cshtml" />
     <Content Include="Views\Schedules\Delete.cshtml" />
     <Content Include="Views\Schedules\Details.cshtml" />
@@ -230,6 +234,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201902052007251_AddScheduleMigration3.resx">
       <DependentUpon>201902052007251_AddScheduleMigration3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902071027406_AddCompanyMigration.resx">
+      <DependentUpon>201902071027406_AddCompanyMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902071127148_AddCompanyMigration1.resx">
+      <DependentUpon>201902071127148_AddCompanyMigration1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
